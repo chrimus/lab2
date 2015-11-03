@@ -17,7 +17,7 @@ int main(){
     for(int i=20; i<=100; i++){
       //calculate i.th value of the series
       x_i= r*x_i*(1-x_i);
-      cout << i << "\t" << x_i << "\t"<< r << "\t" << endl;
+      cout << r << "\t" << x_i << "\t"<<  endl;
     }
     
   }
